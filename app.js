@@ -120,9 +120,9 @@ class Destination {
     const markup = `
     <div class="container-fluid destination">
     <div class="slide">
-    <button><i class="bi bi-chevron-left pic-icon"></i></button>
+    <button class="bi bi-chevron-left pic-icon"></button>
     <div class='photos d-flex'></div>
-    <button><i class="bi bi-chevron-right pic-icon"></i></button>
+    <button class="bi bi-chevron-right pic-icon"></button>
     </div>
     <div class='dots container-fluid'></div>
     <p>${this.destination}<p>
