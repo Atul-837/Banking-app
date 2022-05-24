@@ -1,0 +1,15 @@
+{
+  "name": "mountain-ranger",
+  "version": "1.0.0",
+  "description": "Travel guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atul Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.2"
+  }
+}

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Amatic+SC&family=Anek+Odia:wght@100&family=Bangers&family=Caveat&family=Cinzel&family=Cookie&family=Dancing+Script&family=Dawning+of+a+New+Day&family=Fredoka&family=Grape+Nuts&family=Indie+Flower&family=Kelly+Slab&family=Koulen&family=Lobster&family=Macondo&family=Major+Mono+Display&family=My+Soul&family=Odibee+Sans&family=Pacifico&family=Palette+Mosaic&family=Permanent+Marker&family=Satisfy&family=Shadows+Into+Light&family=Sofia&family=Square+Peg&family=Zen+Loop&display=swap');/*/////////////////////////////////////////
+font-family: 'Dancing Script', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Zen Loop', cursive; 
+font-family: 'Lobster', cursive;
+font-family: 'Koulen', cursive;
+//////////////////////////////////////////*/
+body{
+    background: url('images/road-7148369_1920.jpg');
+     background-size: cover;
+     background-attachment: fixed;
+     backdrop-filter: blur(1px);
+     max-width: 100%;
+     min-height: 99.7vh;
+     overflow-x: hidden;
+     position: relative;
+     padding-bottom:130px;
+         }
+.hidden{
+    display:none;
+}
+
+.navbar{
+    margin-left: 20px;
+    margin-right: 10px;
+    }
+.navbar-brand{
+    color: rgb(208, 212, 216) !important;
+    font-size: xx-large !important;
+    padding-left: 40px;
+    font-weight:bold;
+    font-family: 'Macondo', cursive;
+}
+.dropdown-menu{
+    background: none;
+    border: none;
+}
+
+.menu{
+    color: rgb(208, 212, 216) !important;
+    font-family: 'Macondo', cursive;
+    font-size: larger;
+    border: none;
+    background: none;
+    transition: 1s;
+}
+.menu:hover{
+    transform: scale(1.2);
+}
+
+.bi-list{
+    color: black;
+}
+.bi-list::after{
+    transform: rotate(45);
+}
+.dropdown-item:hover{
+background: none;
+}
+
+.center-text{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.center_quote--2 {
+    color: rgb(227, 229, 230);
+    font-size: x-large;
+    font-family: 'Dancing Script', cursive;
+   transition: 2s;
+   padding-left: 150px;
+   padding-right: 150px;
+}
+
+.center_quote--2:hover{
+    transform: scale(1.2);
+    color: rgb(205, 231, 144);
+}
+
+.btn-go{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+}
+.btn-go:hover {
+    transform: scale(1.1);
+    color: rgb(205, 231, 144);
+}
+
+.country-container{
+    min-height: 100vh;
+    padding-top: 120px;
+    display: flex;
+   padding-left: 160px;
+
+}
+
+.card{
+   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   margin: 110px;
+   background: none;
+   color: aliceblue;
+   border-color: black;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    height: 300px;
+    transition: ease-in;
+}
+.map-text{
+    text-align: center;
+    background-color: #82cac7;
+    font-size:medium;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#map{
+    height: 400px;
+    width: 60%;
+    border-radius: 20px;
+    margin-left: 240px;
+}
+
+
+.footer{
+    position: absolute;
+    bottom:0;
+    margin-top: 60px;
+    padding-top: 30px;
+    height: 100px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;    
+    background-color: rgb(15, 15, 15);
+    color: rgb(212, 212, 195) !important;
+}
+.foot-1 a, .foot-2  a {
+    color: rgb(212, 212, 195) !important;
+    text-decoration: none;
+}
+
+
+.container-destinations{
+    margin-top: 100px;
+}
+
+.destination{
+    margin-top: 50px;
+    max-height: 800px;
+    max-width: 1000px;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+
+.photos{
+    height: 400px;
+    width: 700px;
+    display:flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.destination-img{ 
+    padding: 10px;
+    border-radius: 20px;
+    min-height: 400px;
+    min-width: 700px;
+    max-height: 400px;
+    max-width: 700px;
+    position: absolute;
+    transition: transform 1.5s;
+}
+
+.pic-icon{
+    background: none;
+    font-size: xx-large;
+    border: none;
+    margin: 30px;
+    color: rgb(230, 238, 215);
+}
+.slide{
+    justify-content: center;
+    display: flex;
+}
+.dots{
+    min-height: 30px;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+}
+.dots_dot{
+    border: none;
+        background-color: #ddd4d4;
+        opacity: 0.7;
+        height: .8rem;
+        width: .8rem;
+        border-radius: 50%;
+        margin-right: 1.75rem;
+        cursor: pointer;
+        transition: all 0.5s;
+        margin-top: 5px;
+}
+
+.dots_dot--active{
+    background-color: rgb(247, 243, 15);
+    border: none;
+        opacity: 0.7;
+        height: .8rem;
+        width: .8rem;
+        border-radius: 50%;
+        margin-right: 1.75rem;
+        cursor: pointer;
+        transition: all 0.5s;
+        margin-top: 5px;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.6);
+}
+.modal{
+     justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    }
+
+
+.modal-body{
+    align-self: center;
+}
+.modal-content{
+    margin-top: 10px;
+    background-image: url('images/mountains-6271255_1280.png');
+    background-size: cover;   
+    border-radius: 10px;
+    border: 2px;
+    max-width: 450px;
+    max-height: 400px;
+    opacity: 2 !important;
+}
+
+.modal-body p{
+font-family: 'Koulen', cursive;
+font-size:x-large
+}
+.modal-body input{
+    border-radius: 10px;
+    background-color: #ddd4d4;
+}
