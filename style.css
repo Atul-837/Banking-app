@@ -185,7 +185,7 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30p
     font-size: xx-large;
     border: none;
     margin: 50px;
-    color: rgb(230, 238, 215);
+    color: rgb(230, 238, 215) !important;
 }
 .slide{
     justify-content: center;
