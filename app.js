@@ -247,3 +247,6 @@ logIn.addEventListener("click", function () {
 btnClose.addEventListener("click", function () {
   document.querySelector(".modal").style.display = "none";
 });
+document.querySelector(".overlay").addEventListener("click", function () {
+  document.querySelector(".modal").style.display = "none";
+});
