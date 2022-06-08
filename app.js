@@ -53,7 +53,7 @@ class Country {
     this.subregion = data[i].subregion;
     //////adding the necessary html to display card for each country available
     const markup = `
-    <div class="col-md-4 col-sm-12">
+    <div class="col-md-4 col-sm-10">
           <div class="card text-center" style="width: 18rem;">
                 <img src=${this.#flag} class="card-img-top" alt="${this.name}"/>
                 <div class="card-body">
