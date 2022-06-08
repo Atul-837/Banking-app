@@ -6,12 +6,12 @@ font-family: 'Lobster', cursive;
 font-family: 'Koulen', cursive;
 //////////////////////////////////////////*/
 body{
-    background: url('images/road-7148369_1920.jpg');
+    background: url('images/pexels-creative-vix-9754.jpg');
      background-size: cover;
      background-attachment: fixed;
-     backdrop-filter: blur(1px);
+     /* backdrop-filter: blur(1px); */
      max-width: 100%;
-     min-height: 99.7vh;
+     min-height: 100vh;
      overflow-x: hidden;
      position: relative;
      padding-bottom:130px;
@@ -25,8 +25,8 @@ body{
     margin-right: 10px;
     }
 .navbar-brand{
-    color: rgb(208, 212, 216) !important;
-    font-size: xx-large !important;
+    color: rgb(76, 84, 97) !important;
+    font-size: x-large !important;
     padding-left: 40px;
     font-weight:bold;
     font-family: 'Macondo', cursive;
@@ -37,23 +37,19 @@ body{
 }
 
 .menu{
-    color: rgb(208, 212, 216) !important;
-    font-family: 'Macondo', cursive;
+    color: rgb(76, 84, 97) !important;
+    font-family: 'Koulen', cursive;
     font-size: larger;
     border: none;
     background: none;
     transition: 1s;
+    margin: 30px;
+    text-decoration: none;
 }
 .menu:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
-.bi-list{
-    color: black;
-}
-.bi-list::after{
-    transform: rotate(45);
-}
 .dropdown-item:hover{
 background: none;
 }
@@ -64,7 +60,7 @@ background: none;
 }
 
 .center_quote--2 {
-    color: rgb(227, 229, 230);
+    color: rgb(77, 83, 78);
     font-size: x-large;
     font-family: 'Dancing Script', cursive;
    transition: 2s;
@@ -73,8 +69,8 @@ background: none;
 }
 
 .center_quote--2:hover{
-    transform: scale(1.2);
-    color: rgb(205, 231, 144);
+    transform: scale(1.1);
+    color: black;
 }
 
 .btn-go{
@@ -131,20 +127,21 @@ font-weight: 600;
 
 
 .footer{
+    align-content: center;
     position: absolute;
-    bottom:0;
+    bottom: 0px;
     margin-top: 60px;
-    padding-top: 30px;
-    height: 100px;
-    text-align: center;
+    padding: 15px;
+    height: 55px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;    
     background-color: rgb(15, 15, 15);
     color: rgb(212, 212, 195) !important;
 }
-.foot-1 a, .foot-2  a {
+.foot  a {
     color: rgb(212, 212, 195) !important;
     text-decoration: none;
+    margin: 50px
 }
 
 
@@ -239,7 +236,8 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30p
 }
 .modal-content{
     margin-top: 10px;
-    background-image: url('images/mountains-6271255_1280.png');
+    background-image: url('images/pexels-pixabay-531321.jpg');
+    background-size: cover;
     background-size: cover;   
     border-radius: 10px;
     border: 2px;
@@ -255,4 +253,9 @@ font-size:x-large
 .modal-body input{
     border-radius: 10px;
     background-color: #ddd4d4;
+}
+
+.text{
+    color: aliceblue;
+
 }
