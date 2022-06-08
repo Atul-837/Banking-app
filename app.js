@@ -157,7 +157,7 @@ class Destination {
       );
     };
 
-    //////////////////////////////////////////////////
+    ///////////////////////////////////////////////////
     ////CREATE DOT BUTTONS TO GO TO PHOTOS
     const createDots = function () {
       curImage.forEach((_, i) => {
