@@ -123,9 +123,9 @@ class Destination {
     const markup = `
     <div class="container-fluid destination">
     <div class="slide">
-    <button class="pic-icon">&lt;</button>
+    <button class="bi bi-chevron-left pic-icon"></button>
     <div class='photos d-flex'></div>
-    <button class="pic-icon">&gt;</button>
+    <button class="bi bi-chevron-right pic-icon"></button>
     </div>
     <div class='dots container-fluid'></div>
     <p>${this.destination}<p>
