@@ -53,6 +53,7 @@ class Country {
     this.subregion = data[i].subregion;
     //////adding the necessary html to display card for each country available
     const markup = `
+    <div class="col-md-4 col-sm-12">
           <div class="card text-center" style="width: 18rem;">
                 <img src=${this.#flag} class="card-img-top" alt="${this.name}"/>
                 <div class="card-body">
@@ -61,6 +62,7 @@ class Country {
                     <button class="btn btn-country btn-secondary"
                     >Visit ${this.name.toUpperCase()}</button>
                     </div>     
+                    </div>
                     </div>
                     `;
 
@@ -78,6 +80,7 @@ class Country {
 ////initiating two countries
 const canada = new Country("Canada", "Très Bienvenu");
 const india = new Country("India", "Atithi Devo Bhava");
+const us = new Country("USA", "All Within Your Reach");
 ///////CREATING DESTINATION CLASSES BY IMPORTING DATA FROM DIFFERENT FILE
 class Destination {
   state;
