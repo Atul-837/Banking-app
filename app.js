@@ -80,7 +80,7 @@ class Country {
 ////initiating two countries
 const canada = new Country("Canada", "Très Bienvenu");
 const india = new Country("India", "Atithi Devo Bhava");
-const us = new Country("USA", "All Within Your Reach");
+// const us = new Country("USA", "All Within Your Reach");
 ///////CREATING DESTINATION CLASSES BY IMPORTING DATA FROM DIFFERENT FILE
 class Destination {
   state;
@@ -123,9 +123,9 @@ class Destination {
     const markup = `
     <div class="container-fluid destination">
     <div class="slide">
-    <button class="bi bi-chevron-left pic-icon"></button>
-    <div class='photos d-flex'></div>
-    <button class="bi bi-chevron-right pic-icon"></button>
+    <button class="col-sm-1 col-md-1 bi bi-chevron-left pic-icon"></button>
+    <div class='photos col-md-6 col-sm-6 d-flex'></div>
+    <button class="col-sm-1 col-md-1 bi bi-chevron-right pic-icon"></button>
     </div>
     <div class='dots container-fluid'></div>
     <p>${this.destination}<p>
