@@ -177,9 +177,9 @@ font-weight: 600;
          .destination-img {
              padding: 10px;
              border-radius: 20px;
-             min-width: 245px !important;
+             min-width: 260px !important;
              min-height: 350px !important;
-             max-width: 245px  !important;
+             max-width: 260px  !important;
              max-height: 350px !important;
              position: absolute;
              transition: transform 1.5s;
